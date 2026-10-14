@@ -1,0 +1,26 @@
+{
+  "name": "pic",
+  "private": true,
+  "description": "Plataforma Integrada de Calidad (P.I.C.) HIMFG. Trabajo Terminal 2026-B060, ESCOM-IPN.",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "dev:api": "npm run dev -w backend",
+    "dev:web": "npm run dev -w frontend",
+    "db:migrate": "npm run db:migrate -w backend",
+    "db:seed": "npm run db:seed -w backend",
+    "lint": "npm run lint --workspaces",
+    "test": "npm run test --workspaces",
+    "build": "npm run build -w frontend"
+  },
+  "overrides": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "uuid": "^11.1.1"
+  }
+}

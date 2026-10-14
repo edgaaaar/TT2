@@ -1,0 +1,490 @@
+[
+ {
+  "nombre": "Servicio de Consulta de Pediatría Ambulatoria",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Departamento de Genética",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Departamento de Psiquiatría y Medicina del Adolescente",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Medicina del Adolescente",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Departamento de Rehabilitación",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Departamento de Audiología y Foniatría",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Dermatología",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Clínica de Enfermedades Lisosomales",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Pediatría del Desarrollo y la Conducta",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Pediatría Interna Hospitalaria",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Psicología Hospitalaria",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Departamento de Urgencias",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Departamento de Infectología",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Clínica de Inmunodeficiencias (CLINDI)",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Neumología",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Laboratorio de Fisiología Pulmonar",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Laboratorio de Micología",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Departamento de Terapia Intensiva",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Terapia Respiratoria",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Departamento de Cardiología",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Hemodinámica",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Ecocardiografía",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Departamento de Nefrología",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Departamento de Neonatología",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Departamento de Hemato-Oncología",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Quimioterapia Ambulatoria",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Radioterapia",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Hematología",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Departamento de Gastroenterología y Nutrición",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Gastroenterología",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Nutrición",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Alimentación Parenteral",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Departamento de Neurología",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Departamento de Reumatología",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Departamento de Endocrinología",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Departamento de Epidemiología Hospitalaria",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Departamento de Cuidados Paliativos y Calidad de Vida",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Departamento de Alergia e Inmunología Clínica",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Laboratorio de Alergia",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Cirugía General",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Terapia Quirúrgica",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Recuperación Posoperatoria",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Recuperación Posoperatoria Avanzada",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Oftalmología",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Otorrinolaringología",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Cirugía Oncológica",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Cirugía Endoscópica",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Cirugía Plástica y Reconstructiva",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Cirugía Cardiovascular",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Tórax y Endoscopia",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Departamento de Trasplantes",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Departamento de Ortopedia",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Departamento de Neurocirugía",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Departamento de Urología",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Anestesia",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Quirófanos",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Central de Esterilización y Equipos (CEyE)",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Cirugía Ambulatoria",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Recuperación de Procedimientos Ambulatorios",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Algología",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Odontopediatría",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Ortodoncia",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Cirugía Maxilofacial",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Patología Clínica y Experimental",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Departamento de Imagenología",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Medicina Nuclear Molecular",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Departamento de Laboratorio Clínico",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Servicio de Banco de Sangre y Medicina Transfusional",
+  "es_area_atencion": true
+ },
+ {
+  "nombre": "Dirección General",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Departamento de Asuntos Jurídicos",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Departamento de Gestión",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Servicio de Calidad",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Dirección Médica",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Subdirección de Pediatría Ambulatoria",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Subdirección de Asistencia Médica",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Servicio de Quimioterapia de Corta Estancia",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Subdirección de Asistencia Quirúrgica",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Departamento de Anestesia y Algología",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Departamento de Estomatología",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Subdirección de Servicios Auxiliares de Diagnóstico",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Subdirección de Atención Integral al Paciente",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Departamento de Enfermería",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Clínica de Catéteres",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Servicio de Camilleros",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Servicio de Estafetas",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Departamento de Trabajo Social",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Departamento de Relaciones Públicas",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Dirección de Enseñanza y Desarrollo Académico",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Subdirección de Recursos Humanos",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Subdirección de Recursos Materiales",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Servicios Farmacéuticos",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Departamento de Compras Gubernamentales Generales",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Departamento de Compras Gubernamentales Farmacéuticas",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Departamento de Almacenes",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Departamento de Inventario y Activo Fijo",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Subdirección de Mantenimiento",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Unidad de Alimentación y Dietética",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Departamento de Servicios Generales",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Servicio de Conservación de Exteriores",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Servicio de Control de Medio Ambiente",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Servicio de Intendencia",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Servicio de Lavandería y Costura",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Servicio de Seguridad y Vigilancia",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Servicio de Transportes",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Servicio de Distribución y Abasto de Insumos",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Servicio de Conmutador",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Departamento de Mantenimiento",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Departamento de Ingeniería Biomédica",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Departamento de Obra Pública",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Departamento de Protección Civil",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Subdirección de Recursos Financieros",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Departamento de Tesorería",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Subdirección de Seguimiento Programático y Diseño Organizacional",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Departamento de Desempeño y Organización Institucional",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Departamento de Tecnologías de la Información y Comunicaciones",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Servicio de Fotocopiado",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Departamento de Bioestadística y Archivo Clínico",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Oficina de Representación",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Comité de Tecnovigilancia",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Centro Institucional de Farmacovigilancia",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Otro",
+  "es_area_atencion": false
+ },
+ {
+  "nombre": "Ninguno",
+  "es_area_atencion": false
+ }
+]

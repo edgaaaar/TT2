@@ -1,0 +1,1224 @@
+[
+ {
+  "clave": "TURNO",
+  "nombre": "Turno",
+  "jerarquico": false,
+  "items": [
+   {
+    "nombre": "Matutino",
+    "requiere_especificar": false,
+    "orden": 1
+   },
+   {
+    "nombre": "Vespertino",
+    "requiere_especificar": false,
+    "orden": 2
+   },
+   {
+    "nombre": "Nocturno",
+    "requiere_especificar": false,
+    "orden": 3
+   },
+   {
+    "nombre": "Jornada especial",
+    "requiere_especificar": false,
+    "orden": 4
+   }
+  ]
+ },
+ {
+  "clave": "GENERO",
+  "nombre": "Género",
+  "jerarquico": false,
+  "items": [
+   {
+    "nombre": "Femenino",
+    "requiere_especificar": false,
+    "orden": 1
+   },
+   {
+    "nombre": "Masculino",
+    "requiere_especificar": false,
+    "orden": 2
+   }
+  ]
+ },
+ {
+  "clave": "TIPO_INCIDENTE",
+  "nombre": "Tipo de incidente (MP-6001-213-03)",
+  "jerarquico": true,
+  "items": [
+   {
+    "nombre": "Administración clínica",
+    "hijos": [
+     {
+      "nombre": "Cambio de turno",
+      "requiere_especificar": false,
+      "orden": 1
+     },
+     {
+      "nombre": "Cita",
+      "requiere_especificar": false,
+      "orden": 2
+     },
+     {
+      "nombre": "Derivación/Interconsulta",
+      "requiere_especificar": false,
+      "orden": 3
+     },
+     {
+      "nombre": "Ingreso",
+      "requiere_especificar": false,
+      "orden": 4
+     },
+     {
+      "nombre": "Alta/Egreso",
+      "requiere_especificar": false,
+      "orden": 5
+     },
+     {
+      "nombre": "Traslado intra/extrahospitalario",
+      "requiere_especificar": false,
+      "orden": 6
+     },
+     {
+      "nombre": "Identificación incorrecta del paciente",
+      "requiere_especificar": false,
+      "orden": 7
+     },
+     {
+      "nombre": "Consentimiento Informado",
+      "requiere_especificar": false,
+      "orden": 8
+     },
+     {
+      "nombre": "Asignación de tareas",
+      "requiere_especificar": false,
+      "orden": 9
+     },
+     {
+      "nombre": "Respuesta a una urgencia",
+      "requiere_especificar": false,
+      "orden": 10
+     },
+     {
+      "nombre": "Otros",
+      "requiere_especificar": true,
+      "orden": 11
+     }
+    ],
+    "orden": 1
+   },
+   {
+    "nombre": "Proceso/procedimiento clínico",
+    "hijos": [
+     {
+      "nombre": "Diagnóstico/evaluación",
+      "requiere_especificar": false,
+      "orden": 1
+     },
+     {
+      "nombre": "Procedimiento/tratamiento/intervención",
+      "requiere_especificar": false,
+      "orden": 2
+     },
+     {
+      "nombre": "Atención/tratamiento general",
+      "requiere_especificar": false,
+      "orden": 3
+     },
+     {
+      "nombre": "Análisis/pruebas",
+      "requiere_especificar": false,
+      "orden": 4
+     },
+     {
+      "nombre": "Muestras/resultados",
+      "requiere_especificar": false,
+      "orden": 5
+     },
+     {
+      "nombre": "Otros",
+      "requiere_especificar": true,
+      "orden": 6
+     }
+    ],
+    "orden": 2
+   },
+   {
+    "nombre": "Medicación/líquidos para administración IV",
+    "hijos": [
+     {
+      "nombre": "Prescripción",
+      "requiere_especificar": false,
+      "orden": 1
+     },
+     {
+      "nombre": "Transcripción",
+      "requiere_especificar": false,
+      "orden": 2
+     },
+     {
+      "nombre": "Preparación",
+      "requiere_especificar": false,
+      "orden": 3
+     },
+     {
+      "nombre": "Dispensación/Distribución",
+      "requiere_especificar": false,
+      "orden": 4
+     },
+     {
+      "nombre": "Presentación/Envasado",
+      "requiere_especificar": false,
+      "orden": 5
+     },
+     {
+      "nombre": "Administración",
+      "requiere_especificar": false,
+      "orden": 6
+     },
+     {
+      "nombre": "Monitorización de Efectos",
+      "requiere_especificar": false,
+      "orden": 7
+     },
+     {
+      "nombre": "Selección",
+      "requiere_especificar": false,
+      "orden": 8
+     },
+     {
+      "nombre": "Suministro/pedido",
+      "requiere_especificar": false,
+      "orden": 9
+     },
+     {
+      "nombre": "Almacenamiento",
+      "requiere_especificar": false,
+      "orden": 10
+     },
+     {
+      "nombre": "Otros",
+      "requiere_especificar": true,
+      "orden": 11
+     }
+    ],
+    "orden": 3
+   },
+   {
+    "nombre": "Sangre/productos sanguíneos",
+    "hijos": [
+     {
+      "nombre": "Pruebas pre transfusionales",
+      "requiere_especificar": false,
+      "orden": 1
+     },
+     {
+      "nombre": "Prescripción",
+      "requiere_especificar": false,
+      "orden": 2
+     },
+     {
+      "nombre": "Preparación",
+      "requiere_especificar": false,
+      "orden": 3
+     },
+     {
+      "nombre": "Dispensación/Distribución",
+      "requiere_especificar": false,
+      "orden": 4
+     },
+     {
+      "nombre": "Administración",
+      "requiere_especificar": false,
+      "orden": 5
+     },
+     {
+      "nombre": "Conservación",
+      "requiere_especificar": false,
+      "orden": 6
+     },
+     {
+      "nombre": "Otros",
+      "requiere_especificar": true,
+      "orden": 7
+     }
+    ],
+    "orden": 4
+   },
+   {
+    "nombre": "Nutrición",
+    "hijos": [
+     {
+      "nombre": "Prescripción/Solicitud",
+      "requiere_especificar": false,
+      "orden": 1
+     },
+     {
+      "nombre": "Preparación/cocinado",
+      "requiere_especificar": false,
+      "orden": 2
+     },
+     {
+      "nombre": "Suministro/pedido",
+      "requiere_especificar": false,
+      "orden": 3
+     },
+     {
+      "nombre": "Presentación",
+      "requiere_especificar": false,
+      "orden": 4
+     },
+     {
+      "nombre": "Dispensación/asignación",
+      "requiere_especificar": false,
+      "orden": 5
+     },
+     {
+      "nombre": "Distribución",
+      "requiere_especificar": false,
+      "orden": 6
+     },
+     {
+      "nombre": "Administración",
+      "requiere_especificar": false,
+      "orden": 7
+     },
+     {
+      "nombre": "Conservación",
+      "requiere_especificar": false,
+      "orden": 8
+     },
+     {
+      "nombre": "Otros",
+      "requiere_especificar": true,
+      "orden": 9
+     }
+    ],
+    "orden": 5
+   },
+   {
+    "nombre": "Comportamiento",
+    "hijos": [
+     {
+      "nombre": "Incumplido/no colaborador/obstructivo",
+      "requiere_especificar": false,
+      "orden": 1
+     },
+     {
+      "nombre": "Desconsiderado/Grosero/hostil/inapropiado",
+      "requiere_especificar": false,
+      "orden": 2
+     },
+     {
+      "nombre": "Arriesgado/imprudente/peligroso",
+      "requiere_especificar": false,
+      "orden": 3
+     },
+     {
+      "nombre": "Problema de uso/abuso de sustancias",
+      "requiere_especificar": false,
+      "orden": 4
+     },
+     {
+      "nombre": "Acoso",
+      "requiere_especificar": false,
+      "orden": 5
+     },
+     {
+      "nombre": "Discriminación/prejuicio",
+      "requiere_especificar": false,
+      "orden": 6
+     },
+     {
+      "nombre": "Vagabundeo/fugas",
+      "requiere_especificar": false,
+      "orden": 7
+     },
+     {
+      "nombre": "Autolesión deliberada/suicidio",
+      "requiere_especificar": false,
+      "orden": 8
+     },
+     {
+      "nombre": "Agresión verbal",
+      "requiere_especificar": false,
+      "orden": 9
+     },
+     {
+      "nombre": "Agresión física",
+      "requiere_especificar": false,
+      "orden": 10
+     },
+     {
+      "nombre": "Agresión sexual",
+      "requiere_especificar": false,
+      "orden": 11
+     },
+     {
+      "nombre": "Agresión a objeto inanimado",
+      "requiere_especificar": false,
+      "orden": 12
+     },
+     {
+      "nombre": "Amenaza de muerte",
+      "requiere_especificar": false,
+      "orden": 13
+     },
+     {
+      "nombre": "Otro",
+      "requiere_especificar": true,
+      "orden": 14
+     }
+    ],
+    "orden": 6
+   },
+   {
+    "nombre": "Accidentes de los pacientes",
+    "hijos": [
+     {
+      "nombre": "Contacto con objeto",
+      "requiere_especificar": false,
+      "orden": 1
+     },
+     {
+      "nombre": "Contacto con persona",
+      "requiere_especificar": false,
+      "orden": 2
+     },
+     {
+      "nombre": "Aplastamiento",
+      "requiere_especificar": false,
+      "orden": 3
+     },
+     {
+      "nombre": "Abrasión/roce/quemadura/otros",
+      "requiere_especificar": false,
+      "orden": 4
+     },
+     {
+      "nombre": "Rasguño/corte/desgarro/sección",
+      "requiere_especificar": false,
+      "orden": 5
+     },
+     {
+      "nombre": "Pinchazo/herida punzante",
+      "requiere_especificar": false,
+      "orden": 6
+     },
+     {
+      "nombre": "Calor excesivo",
+      "requiere_especificar": false,
+      "orden": 7
+     },
+     {
+      "nombre": "Frío excesivo",
+      "requiere_especificar": false,
+      "orden": 8
+     }
+    ],
+    "orden": 7
+   },
+   {
+    "nombre": "Caídas",
+    "hijos": [
+     {
+      "nombre": "Tropezón/traspié",
+      "requiere_especificar": false,
+      "orden": 1
+     },
+     {
+      "nombre": "Resbalón",
+      "requiere_especificar": false,
+      "orden": 2
+     },
+     {
+      "nombre": "Desmayo",
+      "requiere_especificar": false,
+      "orden": 3
+     },
+     {
+      "nombre": "Pérdida de equilibrio",
+      "requiere_especificar": false,
+      "orden": 4
+     },
+     {
+      "nombre": "Otros",
+      "requiere_especificar": true,
+      "orden": 5
+     }
+    ],
+    "orden": 8
+   },
+   {
+    "nombre": "Infección asociada a la atención de la salud (IAAS)",
+    "hijos": [
+     {
+      "nombre": "Torrente Sanguíneo",
+      "requiere_especificar": false,
+      "orden": 1
+     },
+     {
+      "nombre": "Sitio Quirúrgico",
+      "requiere_especificar": false,
+      "orden": 2
+     },
+     {
+      "nombre": "Absceso",
+      "requiere_especificar": false,
+      "orden": 3
+     },
+     {
+      "nombre": "Neumonía",
+      "requiere_especificar": false,
+      "orden": 4
+     },
+     {
+      "nombre": "Cánulas Intravasculares",
+      "requiere_especificar": false,
+      "orden": 5
+     },
+     {
+      "nombre": "Prótesis/sitio infectado",
+      "requiere_especificar": false,
+      "orden": 6
+     },
+     {
+      "nombre": "Sonda/drenaje urinario",
+      "requiere_especificar": false,
+      "orden": 7
+     },
+     {
+      "nombre": "Tejidos Blandos",
+      "requiere_especificar": false,
+      "orden": 8
+     },
+     {
+      "nombre": "Otros",
+      "requiere_especificar": true,
+      "orden": 9
+     }
+    ],
+    "orden": 9
+   },
+   {
+    "nombre": "Dispositivos/equipos médicos",
+    "hijos": [
+     {
+      "nombre": "No prendió",
+      "requiere_especificar": false,
+      "orden": 1
+     },
+     {
+      "nombre": "Suministro eléctrico insuficiente o inadecuado",
+      "requiere_especificar": false,
+      "orden": 2
+     },
+     {
+      "nombre": "Dio \"toques\"",
+      "requiere_especificar": false,
+      "orden": 3
+     },
+     {
+      "nombre": "Desconocimiento del funcionamiento",
+      "requiere_especificar": false,
+      "orden": 4
+     },
+     {
+      "nombre": "Se quemó",
+      "requiere_especificar": false,
+      "orden": 5
+     },
+     {
+      "nombre": "Desconexión, mala conexión, separación",
+      "requiere_especificar": false,
+      "orden": 6
+     },
+     {
+      "nombre": "Indica error (resultados erróneos, usuario, etc.)",
+      "requiere_especificar": false,
+      "orden": 7
+     },
+     {
+      "nombre": "Se cayó o golpeó",
+      "requiere_especificar": false,
+      "orden": 8
+     },
+     {
+      "nombre": "Interacciones de otras sustancias o productos",
+      "requiere_especificar": false,
+      "orden": 9
+     },
+     {
+      "nombre": "No sonó la alarma conforme a lo programado o especificado por el fabricante",
+      "requiere_especificar": false,
+      "orden": 10
+     },
+     {
+      "nombre": "Empaque maltratado, puede poner en duda la esterilidad",
+      "requiere_especificar": false,
+      "orden": 11
+     },
+     {
+      "nombre": "Insuficiente o inadecuado suministro neumático (oxigeno, aire, etc.)",
+      "requiere_especificar": false,
+      "orden": 12
+     },
+     {
+      "nombre": "Uso diferente al indicado por el fabricante",
+      "requiere_especificar": false,
+      "orden": 13
+     },
+     {
+      "nombre": "Información del etiquetado o empaque incompleta o confusa",
+      "requiere_especificar": false,
+      "orden": 14
+     },
+     {
+      "nombre": "No funciona como se indica en el manual o se bloqueó",
+      "requiere_especificar": false,
+      "orden": 15
+     },
+     {
+      "nombre": "Falló",
+      "requiere_especificar": true,
+      "orden": 16
+     },
+     {
+      "nombre": "Otros",
+      "requiere_especificar": true,
+      "orden": 17
+     }
+    ],
+    "orden": 10
+   },
+   {
+    "nombre": "Infraestructuras/locales/instalaciones",
+    "hijos": [
+     {
+      "nombre": "Tecnologías de la información",
+      "requiere_especificar": false,
+      "orden": 1
+     },
+     {
+      "nombre": "Inexistente/inadecuado",
+      "requiere_especificar": false,
+      "orden": 2
+     },
+     {
+      "nombre": "Dañado/defectuoso/desgastado",
+      "requiere_especificar": false,
+      "orden": 3
+     }
+    ],
+    "orden": 11
+   },
+   {
+    "nombre": "Documentación",
+    "hijos": [
+     {
+      "nombre": "Pedidos/Solicitudes",
+      "requiere_especificar": false,
+      "orden": 1
+     },
+     {
+      "nombre": "Hojas de evolución/historias clínicas/evaluaciones/interconsultas",
+      "requiere_especificar": false,
+      "orden": 2
+     },
+     {
+      "nombre": "Formularios/certificados",
+      "requiere_especificar": false,
+      "orden": 3
+     },
+     {
+      "nombre": "Instrucciones/información/políticas/procedimientos/directrices",
+      "requiere_especificar": false,
+      "orden": 4
+     },
+     {
+      "nombre": "Etiquetas/adhesivos/pulseras de identificación/tarjetas",
+      "requiere_especificar": false,
+      "orden": 5
+     },
+     {
+      "nombre": "Cartas/correos electrónicos/registros de comunicación",
+      "requiere_especificar": false,
+      "orden": 6
+     },
+     {
+      "nombre": "Informes/resultados/imágenes",
+      "requiere_especificar": false,
+      "orden": 7
+     },
+     {
+      "nombre": "Otros",
+      "requiere_especificar": true,
+      "orden": 8
+     }
+    ],
+    "orden": 12
+   },
+   {
+    "nombre": "Recursos/gestión de la organización",
+    "hijos": [
+     {
+      "nombre": "Adaptación de la gestión de la carga de trabajo",
+      "requiere_especificar": false,
+      "orden": 1
+     },
+     {
+      "nombre": "Disponibilidad/idoneidad de camas/servicios",
+      "requiere_especificar": false,
+      "orden": 2
+     },
+     {
+      "nombre": "Disponibilidad/idoneidad de recursos humanos/personal",
+      "requiere_especificar": false,
+      "orden": 3
+     }
+    ],
+    "orden": 13
+   },
+   {
+    "nombre": "Organización de equipos/personas",
+    "hijos": [
+     {
+      "nombre": "Disponibilidad/idoneidad de protocolos/políticas/procedimientos/directrices",
+      "requiere_especificar": false,
+      "orden": 1
+     },
+     {
+      "nombre": "Otros",
+      "requiere_especificar": true,
+      "orden": 2
+     }
+    ],
+    "orden": 14
+   },
+   {
+    "nombre": "Oxígeno/gases/vapores",
+    "hijos": [
+     {
+      "nombre": "Etiquetas de la botella/código de colores/estribo de seguridad",
+      "requiere_especificar": false,
+      "orden": 1
+     },
+     {
+      "nombre": "Prescripción",
+      "requiere_especificar": false,
+      "orden": 2
+     },
+     {
+      "nombre": "Administración",
+      "requiere_especificar": false,
+      "orden": 3
+     },
+     {
+      "nombre": "Distribución",
+      "requiere_especificar": false,
+      "orden": 4
+     },
+     {
+      "nombre": "Suministro/pedido",
+      "requiere_especificar": false,
+      "orden": 5
+     },
+     {
+      "nombre": "Conservación",
+      "requiere_especificar": false,
+      "orden": 6
+     },
+     {
+      "nombre": "Otros",
+      "requiere_especificar": true,
+      "orden": 7
+     }
+    ],
+    "orden": 15
+   }
+  ]
+ },
+ {
+  "clave": "DANO_PACIENTE",
+  "nombre": "Daño atribuido al incidente",
+  "jerarquico": false,
+  "items": [
+   {
+    "nombre": "Muerte",
+    "requiere_especificar": false,
+    "orden": 1
+   },
+   {
+    "nombre": "Requiere Intervención Médica",
+    "requiere_especificar": false,
+    "orden": 2
+   },
+   {
+    "nombre": "Requiere Intervención Quirúrgica",
+    "requiere_especificar": false,
+    "orden": 3
+   },
+   {
+    "nombre": "Daño Indirecto",
+    "requiere_especificar": false,
+    "orden": 4
+   },
+   {
+    "nombre": "Deficiencia permanente de una función corporal",
+    "requiere_especificar": false,
+    "orden": 5
+   },
+   {
+    "nombre": "Daño permanente a una estructura corporal",
+    "requiere_especificar": false,
+    "orden": 6
+   },
+   {
+    "nombre": "Requirió mayores días de Hospitalización",
+    "requiere_especificar": false,
+    "orden": 7
+   },
+   {
+    "nombre": "Retraso en la atención",
+    "requiere_especificar": false,
+    "orden": 8
+   },
+   {
+    "nombre": "Ninguno",
+    "requiere_especificar": false,
+    "orden": 9
+   },
+   {
+    "nombre": "Otro",
+    "requiere_especificar": true,
+    "orden": 10
+   }
+  ]
+ },
+ {
+  "clave": "FACTOR_CONTRIBUYENTE",
+  "nombre": "Factores contribuyentes",
+  "jerarquico": true,
+  "items": [
+   {
+    "nombre": "Paciente",
+    "hijos": [
+     {
+      "nombre": "Complejidad de la condición clínica",
+      "requiere_especificar": false,
+      "orden": 1
+     },
+     {
+      "nombre": "Comportamiento",
+      "requiere_especificar": false,
+      "orden": 2
+     },
+     {
+      "nombre": "Lenguaje y comunicación",
+      "requiere_especificar": false,
+      "orden": 3
+     }
+    ],
+    "orden": 1
+   },
+   {
+    "nombre": "Personal de salud",
+    "hijos": [
+     {
+      "nombre": "Conocimiento y Habilidades",
+      "requiere_especificar": false,
+      "orden": 1
+     },
+     {
+      "nombre": "Aspectos personales",
+      "requiere_especificar": false,
+      "orden": 2
+     },
+     {
+      "nombre": "Competencia",
+      "requiere_especificar": false,
+      "orden": 3
+     },
+     {
+      "nombre": "Comunicación",
+      "requiere_especificar": false,
+      "orden": 4
+     },
+     {
+      "nombre": "Experiencia",
+      "requiere_especificar": false,
+      "orden": 5
+     }
+    ],
+    "orden": 2
+   },
+   {
+    "nombre": "Cuidador primario",
+    "hijos": [
+     {
+      "nombre": "Comportamiento",
+      "requiere_especificar": false,
+      "orden": 1
+     },
+     {
+      "nombre": "Comunicación",
+      "requiere_especificar": false,
+      "orden": 2
+     }
+    ],
+    "orden": 3
+   },
+   {
+    "nombre": "Herramientas y tecnologías",
+    "hijos": [
+     {
+      "nombre": "Problemas de interacción y usabilidad del diseño",
+      "requiere_especificar": false,
+      "orden": 1
+     },
+     {
+      "nombre": "Operativo/calibrado",
+      "requiere_especificar": false,
+      "orden": 2
+     },
+     {
+      "nombre": "Problemas de diseño",
+      "requiere_especificar": false,
+      "orden": 3
+     },
+     {
+      "nombre": "Otro",
+      "requiere_especificar": true,
+      "orden": 4
+     }
+    ],
+    "orden": 4
+   }
+  ]
+ },
+ {
+  "clave": "PERSONAL_INVOLUCRADO",
+  "nombre": "Personal involucrado",
+  "jerarquico": false,
+  "items": [
+   {
+    "nombre": "Médico",
+    "requiere_especificar": false,
+    "orden": 1
+   },
+   {
+    "nombre": "Enfermera",
+    "requiere_especificar": false,
+    "orden": 2
+   },
+   {
+    "nombre": "Camillero",
+    "requiere_especificar": false,
+    "orden": 3
+   },
+   {
+    "nombre": "Estafeta",
+    "requiere_especificar": false,
+    "orden": 4
+   },
+   {
+    "nombre": "Personal de Vigilancia",
+    "requiere_especificar": false,
+    "orden": 5
+   },
+   {
+    "nombre": "Personal de TICS",
+    "requiere_especificar": false,
+    "orden": 6
+   },
+   {
+    "nombre": "Terapistas Respiratorios",
+    "requiere_especificar": false,
+    "orden": 7
+   },
+   {
+    "nombre": "Proveedores",
+    "requiere_especificar": false,
+    "orden": 8
+   },
+   {
+    "nombre": "Familiar",
+    "requiere_especificar": false,
+    "orden": 9
+   },
+   {
+    "nombre": "Personal de Transportes",
+    "requiere_especificar": false,
+    "orden": 10
+   },
+   {
+    "nombre": "Personal de Banco de Sangre",
+    "requiere_especificar": false,
+    "orden": 11
+   },
+   {
+    "nombre": "Intendencia",
+    "requiere_especificar": false,
+    "orden": 12
+   },
+   {
+    "nombre": "Personal de Laboratorio",
+    "requiere_especificar": false,
+    "orden": 13
+   },
+   {
+    "nombre": "Técnico de Imagenología",
+    "requiere_especificar": false,
+    "orden": 14
+   },
+   {
+    "nombre": "Personal de Mantenimiento",
+    "requiere_especificar": false,
+    "orden": 15
+   },
+   {
+    "nombre": "Personal de Relaciones Públicas",
+    "requiere_especificar": false,
+    "orden": 16
+   },
+   {
+    "nombre": "Trabajador Social",
+    "requiere_especificar": false,
+    "orden": 17
+   },
+   {
+    "nombre": "Personal en Formación",
+    "requiere_especificar": false,
+    "orden": 18
+   },
+   {
+    "nombre": "Otro",
+    "requiere_especificar": true,
+    "orden": 19
+   }
+  ]
+ },
+ {
+  "clave": "CLASIFICACION_IRSP",
+  "nombre": "Clasificación del incidente (taxonomía OMS)",
+  "jerarquico": false,
+  "items": [
+   {
+    "nombre": "Factor contribuyente notificable",
+    "requiere_especificar": false,
+    "orden": 1
+   },
+   {
+    "nombre": "Cuasifalla",
+    "requiere_especificar": false,
+    "orden": 2
+   },
+   {
+    "nombre": "Evento adverso",
+    "requiere_especificar": false,
+    "orden": 3
+   },
+   {
+    "nombre": "Evento centinela",
+    "requiere_especificar": false,
+    "orden": 4
+   }
+  ]
+ },
+ {
+  "clave": "GRADO_DANO",
+  "nombre": "Grado de daño (Clasificación de Incidente IRSP)",
+  "jerarquico": false,
+  "items": [
+   {
+    "nombre": "Ninguno",
+    "requiere_especificar": false,
+    "orden": 1
+   },
+   {
+    "nombre": "Leve",
+    "requiere_especificar": false,
+    "orden": 2
+   },
+   {
+    "nombre": "Moderado",
+    "requiere_especificar": false,
+    "orden": 3
+   },
+   {
+    "nombre": "Grave",
+    "requiere_especificar": false,
+    "orden": 4
+   },
+   {
+    "nombre": "Muerte",
+    "requiere_especificar": false,
+    "orden": 5
+   }
+  ]
+ },
+ {
+  "clave": "NIVEL_GRAVEDAD_ACR",
+  "nombre": "Nivel de gravedad del daño (MP-1021-237-05)",
+  "jerarquico": false,
+  "items": [
+   {
+    "nombre": "Sin daño",
+    "requiere_especificar": false,
+    "orden": 1
+   },
+   {
+    "nombre": "Bajo",
+    "requiere_especificar": false,
+    "orden": 2
+   },
+   {
+    "nombre": "Moderado",
+    "requiere_especificar": false,
+    "orden": 3
+   },
+   {
+    "nombre": "Grave",
+    "requiere_especificar": false,
+    "orden": 4
+   }
+  ]
+ },
+ {
+  "clave": "EVENTO_TRASCENDENTE",
+  "nombre": "Eventos trascendentes",
+  "jerarquico": false,
+  "items": [
+   {
+    "nombre": "Extubación No Programada",
+    "requiere_especificar": false,
+    "orden": 1
+   },
+   {
+    "nombre": "Incidentes de CVC",
+    "requiere_especificar": false,
+    "orden": 2
+   },
+   {
+    "nombre": "Incidentes de Sonda Pleural",
+    "requiere_especificar": false,
+    "orden": 3
+   },
+   {
+    "nombre": "Caídas",
+    "requiere_especificar": false,
+    "orden": 4
+   },
+   {
+    "nombre": "Incidentes de Ventriculostomía",
+    "requiere_especificar": false,
+    "orden": 5
+   },
+   {
+    "nombre": "Paro Cardiorrespiratorio",
+    "requiere_especificar": false,
+    "orden": 6
+   }
+  ]
+ },
+ {
+  "clave": "TIPO_ACCION_MEJORA",
+  "nombre": "Tipo de acción de mejora",
+  "jerarquico": false,
+  "items": [
+   {
+    "nombre": "Capacitación al personal de nuevo ingreso y estudiantes",
+    "requiere_especificar": false,
+    "orden": 1
+   },
+   {
+    "nombre": "Mejoramiento de la infraestructura",
+    "requiere_especificar": false,
+    "orden": 2
+   },
+   {
+    "nombre": "Gestión de los recursos (humanos, financieros y materiales) alineado a la mejora continua",
+    "requiere_especificar": false,
+    "orden": 3
+   },
+   {
+    "nombre": "Fortalecimiento de una cultura de calidad y seguridad del paciente mediante el Modelo de Gestión de la Calidad",
+    "requiere_especificar": false,
+    "orden": 4
+   },
+   {
+    "nombre": "Impulso al apego de Guías de Práctica Clínica",
+    "requiere_especificar": false,
+    "orden": 5
+   },
+   {
+    "nombre": "Implementación de mecanismos de supervisión operativa para el monitoreo de la calidad y la seguridad del paciente",
+    "requiere_especificar": false,
+    "orden": 6
+   },
+   {
+    "nombre": "Desarrollo de un Programa de Calidad y Seguridad del Paciente para el establecimiento",
+    "requiere_especificar": false,
+    "orden": 7
+   },
+   {
+    "nombre": "Capacitación a pacientes y familiares para prevenir eventos adversos",
+    "requiere_especificar": false,
+    "orden": 8
+   },
+   {
+    "nombre": "Otra",
+    "requiere_especificar": true,
+    "orden": 9
+   }
+  ]
+ },
+ {
+  "clave": "MEDIO_CAPTACION",
+  "nombre": "Medio de captación de QSF",
+  "jerarquico": false,
+  "items": [
+   {
+    "nombre": "Buzón físico",
+    "requiere_especificar": false,
+    "orden": 1
+   },
+   {
+    "nombre": "Encuesta de egreso",
+    "requiere_especificar": false,
+    "orden": 2
+   },
+   {
+    "nombre": "Atención presencial",
+    "requiere_especificar": false,
+    "orden": 3
+   },
+   {
+    "nombre": "Kiosco digital",
+    "requiere_especificar": false,
+    "orden": 4
+   },
+   {
+    "nombre": "Encuesta SESTAD",
+    "requiere_especificar": false,
+    "orden": 5
+   }
+  ]
+ },
+ {
+  "clave": "DIMENSION_CALIDAD",
+  "nombre": "Dimensión de la calidad (QSF)",
+  "jerarquico": false,
+  "items": [],
+  "pendiente": "Valores por confirmar con el Servicio de Calidad"
+ },
+ {
+  "clave": "CLASIFICACION_QSF",
+  "nombre": "Clasificación interna de QSF",
+  "jerarquico": false,
+  "items": [],
+  "pendiente": "Valores por confirmar con el Servicio de Calidad"
+ }
+]
